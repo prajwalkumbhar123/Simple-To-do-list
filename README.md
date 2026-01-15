@@ -1,7 +1,4 @@
-# Simple-To-do-list
-A simple to-do list is a tool used to note down tasks and organize them so they can be completed efficiently and on time.
-
-# Simple To-Do List 📝
+# Simple-To-do-list📝
 
 A lightweight To-Do List application to manage daily tasks efficiently.  
 Ideal for beginners to understand basic CRUD operations.
