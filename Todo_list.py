@@ -33,19 +33,13 @@ while True:
         else:
             print("No tasks available to edit.")
 
-    # Option 3: Delete Task
     elif choice == '3':
-        # Check if there are tasks available to delete
         if tasks:
-            # Display the current tasks with their indices
             for index, task in enumerate(tasks):
                 print(f"{index + 1}. {task}")
-            # Prompt the user to enter the index of the task to delete
             try:
                 task_index = int(input("Enter task index to delete: ")) - 1
-                # Check if the entered index is valid
                 if 0 <= task_index < len(tasks):
-                    # Remove the task at the specified index
                     tasks.pop(task_index)
                     print("Task deleted successfully.")
                 else:
@@ -64,5 +58,6 @@ while True:
     # Handle invalid menu choices
     else:
         print("Invalid choice. Please select a valid option.")
+
 
 
