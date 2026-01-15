@@ -17,19 +17,13 @@ while True:
         print("Task added successfully.")
 
     elif choice == '2':
-        # Check if there are tasks available to edit
         if tasks:
-            # Display the current tasks with their indices
             for index, task in enumerate(tasks):
                 print(f"{index + 1}. {task}")
-            # Prompt the user to enter the index of the task to edit
             try:
                 task_index = int(input("Enter task index to edit: ")) - 1
-                # Check if the entered index is valid
                 if 0 <= task_index < len(tasks):
-                    # Prompt the user to enter a new task
                     new_task = input("Enter new task: ")
-                    # Update the task at the specified index
                     tasks[task_index] = new_task
                     print("Task edited successfully.")
                 else:
@@ -70,4 +64,5 @@ while True:
     # Handle invalid menu choices
     else:
         print("Invalid choice. Please select a valid option.")
+
 
