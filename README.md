@@ -35,5 +35,10 @@ Ideal for beginners to understand basic CRUD operations.
 -> Practice basic Python concepts
 -> Beginner-friendly project
 
+##🔮 Future Improvements
 
+-> Task priorities
+-> Due dates
+-> File or database storage
+-> GUI version
 
