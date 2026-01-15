@@ -29,4 +29,11 @@ Ideal for beginners to understand basic CRUD operations.
 4. Delete Task
 5. Exit
 
+##🎯 Use Cases
+
+-> Daily task management
+-> Practice basic Python concepts
+-> Beginner-friendly project
+
+
 
