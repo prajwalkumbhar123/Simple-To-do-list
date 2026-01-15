@@ -49,15 +49,12 @@ while True:
         else:
             print("No tasks available to delete.")
 
-    # Option 4: Exit
     elif choice == '4':
-        # Exit the application
         print("Exiting the application. Goodbye!")
         break
-
-    # Handle invalid menu choices
     else:
         print("Invalid choice. Please select a valid option.")
+
 
 
 
