@@ -38,22 +38,23 @@ while True:
             for index, task in enumerate(tasks):
                 print(f"{index + 1}. {task}")
             try:
-                task_index = int(input("Enter task index to delete: ")) - 1
+                task_index = int(input("Enter task index to Delete: ")) - 1
                 if 0 <= task_index < len(tasks):
                     tasks.pop(task_index)
-                    print("Task deleted successfully.")
+                    print("Task deleted Successfully.")
                 else:
                     print("Invalid index.")
             except ValueError:
-                print("Please enter a valid number.")
+                print("Please enter a valid Number.")
         else:
-            print("No tasks available to delete.")
+            print("No tasks available to Delete.")
 
     elif choice == '4':
         print("Exiting the application. Goodbye!")
         break
     else:
         print("Invalid choice. Please select a valid option.")
+
 
 
 
